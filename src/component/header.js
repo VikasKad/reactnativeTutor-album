@@ -1,7 +1,7 @@
 //import lib for making comp
 import React from 'react';
 import {Text, View} from 'react-native';
-
+import axios from 'axios';
 //make a component
 const Header = (props) => {
     const {textStyle, viewStyle} = styles;
